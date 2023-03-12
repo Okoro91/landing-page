@@ -8,7 +8,7 @@
 }
 
 header {
-    width: 80%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@ ul {
 }
 
 #banner {
-    width: 80%;
+    width: 60%;
     margin: 5px auto 40px;
     display: flex;
     justify-content: space-between;
@@ -45,9 +45,81 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
+}
+.brand p {
+    margin: 0;
 }
 
 #banner img {
     width: 490px;
     height: 150px;
+    margin-left: 100px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 16PX;
+    font-weight: 500;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937
+}
+.prod-img {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.jewel {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    padding: 5px;
+    flex: 0 1 180px;
+}
+
+.jewel img {
+    display: block;
+    width: 100%;
+    height: 140px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.jewel p {
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(88, 92, 95);
+}
+
+p span {
+    text-align: center;
+    display: block;
+    background-color: gold;
+    width: 40px;
+    margin: 3px auto;
+}
+
+#about {
+    background-color: #E5E7EB;
+    padding: 20px 80px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
 }
